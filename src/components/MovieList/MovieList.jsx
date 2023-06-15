@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 
-import useStyles from './styles';
+import useStyles from './style';
 import { Movie } from '..';
 
 const MovieList = ({ movies }) => {
