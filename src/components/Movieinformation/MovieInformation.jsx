@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 
 import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
-import useStyles from './styles';
+import useStyles from './style';
 import { useGetMovieQuery, useGetRecommendationsQuery } from '../../services/TMDB';
 import genreIcons from '../../assets/genres';
 import { MovieList } from '..';
